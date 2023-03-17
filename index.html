@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500;700;800&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+
+  <div id="result-summary">
+    <div id="result-tab" class="tabs">
+      <h1>Your Result</h1>
+      <div id="score">
+        <p><span id="result-span">76</span> of 100</p>
+        <p>
+      </div>
+      <div id="score-description">
+        <span id="score-description-span">Great</span>
+        You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+    </div>
+
+    <div id="summary-tab" class="tabs">
+      <h1 class="top-text">Summary</h1>
+      <div id="grid-flow">
+        <div class="flow-element">
+          <div class="reaction-element elements"><img src="assets/images/icon-reaction.svg" alt=""> Reaction</div>
+          <p><span>80</span> / 100</p>
+        </div>
+
+        <div class="flow-element">
+          <div class="memory-element elements"><img src="assets/images/icon-memory.svg" alt="" srcset=""> Memory</div>
+          <p><span>92</span> / 100</p>
+        </div>
+
+        <div class="flow-element">
+          <div class="verbal-element elements "><img src="assets/images/icon-verbal.svg" alt="" srcset=""> Verbal</div>
+          <p><span>61</span> / 100</p>
+        </div>
+
+        <div class="flow-element">
+          <div class="visual-element elements"><img src="assets/images/icon-visual.svg" alt=""> Visual</div>
+          <p><span>72</span> / 100 </p>
+        </div>
+      </div>
+
+      <button class="button">Continue</button>
+    </div>
+  </div>
+</body>
+
+</html>
